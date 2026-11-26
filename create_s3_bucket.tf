@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "s3_bucket_demo" {
-  bucket = "bucket-s3-demo"
+resource "aws_s3_bucket" "bhargava_state-s3_bucket_demo-1" {
+  bucket = "bhargava-state-s3-bucket-demo-1"
 
   tags = {
-    Name        = "s3_bucket_demo"
+    Name        = "bhargava_state-s3_bucket_demo-1"
     Environment = "Dev"
   }
 }
